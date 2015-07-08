@@ -1,4 +1,7 @@
 # Created by https://www.gitignore.io
+ 
+# Ignore any generated Javascript files
+src/app.js
 
 ### Windows ###
 # Windows image file caches
