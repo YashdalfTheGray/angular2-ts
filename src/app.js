@@ -11,11 +11,11 @@ if (typeof __metadata !== "function") __metadata = function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var MyAppComponent = (function () {
-    function MyAppComponent() {
+var myAppComponent = (function () {
+    function myAppComponent() {
         this.name = 'Alice';
     }
-    MyAppComponent = __decorate([
+    myAppComponent = __decorate([
         angular2_1.Component({
             selector: 'my-app'
         }),
@@ -23,7 +23,7 @@ var MyAppComponent = (function () {
             template: '<h1>Hello {{name}}</h1>'
         }), 
         __metadata('design:paramtypes', [])
-    ], MyAppComponent);
-    return MyAppComponent;
+    ], myAppComponent);
+    return myAppComponent;
 })();
-angular2_1.bootstrap(MyAppComponent);
+angular2_1.bootstrap(myAppComponent);
