@@ -12,3 +12,8 @@ Once installed, run `tsd install angular2 es6-promise rx rx-lite` to bring in th
 Running this requires `http-server`.
 
 Run `tsc` to compile the Typescript into Javascript. Then, from the console, run `http-server src/`. 
+
+## Branches
+
+* The (relatively) current tutorial code from [angular.io](https://angular.io/docs/js/latest/quickstart.html) lives on `master`.
+* The tutorial code from [ng-book 2](https://www.ng-book.com/2/) lives on `ng-book-app`. 
