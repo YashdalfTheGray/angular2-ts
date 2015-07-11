@@ -1,19 +1,24 @@
 /// <reference path="../typings/angular2/angular2.d.ts" />
 
-import {Component, View, bootstrap} from 'angular2/angular2';
+import {Component, ngFor, View, bootstrap} from 'angular2/angular2';
 
 @Component({
-	selector: 'my-app'
+    selector: 'my-app'
 })
 @View({
-	template: '<h1>Hello {{name}}</h1>'
+    directives: [ngFor],
+    template: `
+    <ul>
+        <li *ng-for="#name of names"><h1>Hello {{name}}</h1></li>
+    </ul>
+`
 })
 class myAppComponent {
-	name: string;
+    names: Array<string>;
 
-	constructor() {
-		this.name = 'Alice';
-	}
+    constructor() {
+        this.names = ['Alice', 'Bob', 'Charlie', 'Dave'];
+    }
 }
 
 bootstrap(myAppComponent);
