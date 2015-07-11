@@ -11,4 +11,4 @@ Once installed, run `tsd install angular2 es6-promise rx rx-lite` to bring in th
 
 Running this requires `http-server`.
 
-Run `tsc -m commonjs -t es5 --emitDecoratorMetadata src/app.ts` to compile the Typescript into Javascript. Then, from the console, run `http-server src/`. 
+Run `tsc` to compile the Typescript into Javascript. Then, from the console, run `http-server src/`. 
