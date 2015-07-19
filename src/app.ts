@@ -1,12 +1,12 @@
 /// <reference path="../typings/angular2/angular2.d.ts" />
 
-import {Component, ngFor, View, bootstrap} from 'angular2/angular2';
+import {Component, NgFor, View, bootstrap} from 'angular2/angular2';
 
 @Component({
     selector: 'my-app'
 })
 @View({
-    directives: [ngFor],
+    directives: [NgFor],
     template: `
     <ul>
         <li *ng-for="#name of names"><h1>Hello {{name}}</h1></li>
