@@ -3,6 +3,9 @@
 # Ignore any generated Javascript files
 src/app.js
 
+# tsd typings that shouldn't be checked in
+typings/
+
 ### Windows ###
 # Windows image file caches
 Thumbs.db
