@@ -19,6 +19,7 @@ If a custom port is desired, use `http-server -p <port-number> src/` instead.
 
 * The (relatively) current tutorial code from [angular.io](https://angular.io/docs/js/latest/quickstart.html) lives on `master`.
 * The tutorial code from [ng-book 2](https://www.ng-book.com/2/) lives on `ng-book-app`. 
+* The [medium tutorial](https://medium.com/@daviddentoom/how-to-build-an-angular-2-application-with-routing-and-services-67ead73db96e) from [/r/angularjs](https://www.reddit.com/r/angularjs) lives on `ng2-medium`.
 
 ## Observations
 
